@@ -129,10 +129,10 @@ PC2 (1.8%)： 能區分美國歌曲的多樣性，但台灣歌曲在此維度分
 ![tw_vs_us](data/analysis/full/5_tw_vs_us.png)
 ![tw_us_similarity_by_year](data/analysis/full/5_tw_us_similarity_by_year.png)
 
----
 
 所有特徵分析均基於 Western probe 的輸出，UMAP 與 PCA 分析已證實台灣音樂在 MERT embedding 空間存在 distribution shift。因此，特徵分數的絕對值應謹慎解讀，但跨年代的相對趨勢方向仍具參考價值。
 
+---
 #### （分群）
 
 ![Clusters](data/analysis/full/7_clusters.png)
