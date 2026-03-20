@@ -73,8 +73,6 @@
 - 1997–1998：千禧年前夕
 
 
-1994–1995 可能對應國語流行音樂的商業高峰期（滾石、飛碟全盛）
-
 ![Foote Novelty](data/analysis/full/3_foote_novelty.png)
 
 ---
