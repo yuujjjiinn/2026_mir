@@ -28,7 +28,7 @@ the MGPHot dataset, which comprises 21,320 tracks from the Billboard Hot 100
 precomputed embeddings extracted using MERT-v1-330M, along with a standardized train/val/test split and evaluation protocol for music autotagging with expert
 annotations.
 
-![figure1](data/analysis/0417/feature_trends_9panel.png)
+![figure1](data/analysis/feature_trends_9panel.png)
 
 ## 3 RESULTS
 The figure presents the mean values of 58 probe-predicted attributes averaged per
