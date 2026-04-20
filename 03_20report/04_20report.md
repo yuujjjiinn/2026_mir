@@ -13,7 +13,7 @@ that continues the curatorial approach ofTaiwan Popular Music 200 Albums and
 maintains consistency in selection criteria across the full dataset span.
 Metadata including lyrics and platform-specific information (e.g., language tags,
 genre labels, published companies) were retrieved from Apple Music and KKBOX
-where available. For tracks sourced from YouTube, such metadata may be unavailable.
+where available. For tracks sourced from YouTube, such metadata are unavailable.
 
 ## 2. EXPERIMENTS
 All audio embeddings were extracted using MERT-v1-330M (m-a-p/MERT-v1-330M),
