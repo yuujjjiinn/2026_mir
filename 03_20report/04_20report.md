@@ -21,11 +21,11 @@ a self-supervised audio representation model pre-trained on large-scale music co
 For each track, a 30-second segment centered at the song’s midpoint was extracted,
 downmixed to mono, and resampled to 24 kHz. The final embedding for each track
 was obtained by mean-pooling the last hidden state across all time frames, yielding
-a 1,024-dimensional vector. This extraction strategy assumes that the central segment is representative of a song’s overall musical character.
+a 1,024-dimensional vector. This extraction strategy assumes that the central segment is representative of a song’s overall musical character, and fast testing for this method.
 Ramoneda et al. (2025) introduced an audio benchmarking framework based on
 the MGPHot dataset, which comprises 21,320 tracks from the Billboard Hot 100
 (1958–2022) annotated with 58 continuous musicological attributes. They provided
-precomputed embeddings extracted using MERT-v1-330M, along with a standardized train/val/test split and evaluation protocol for music autotagging with expert
+precomputed embeddings extracted using MERT-v1-330M, along with a standardized train/val/test split and model protocol for music feature generation.
 annotations.
 
 ![figure1](data/analysis/feature_trends_9panel.png)
